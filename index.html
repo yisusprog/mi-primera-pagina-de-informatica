@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web Sencilla</title>
+    <title>Restaurante Mexicano</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -29,6 +29,16 @@
         main {
             padding: 20px;
         }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #005fa3;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
         footer {
             background-color: #ddd;
             color: #333;
@@ -43,23 +53,60 @@
 <body>
 
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <h1>Restaurante Mexicano</h1>
     </header>
 
     <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Acerca de</a>
-        <a href="#">Contacto</a>
+        <a href="#inicio">Inicio</a>
+        <a href="#acerca">Acerca de</a>
+        <a href="#contacto">Contacto</a>
     </nav>
 
     <main>
-        <h2>Contenido Principal</h2>
-        <p>Esta es una página web sencilla creada con HTML y un poco de CSS.</p>
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+            <p>¡Bienvenido al <strong>Restaurante Mexicano</strong>! Un rincón lleno de sabor, tradición y cultura donde cada platillo es una celebración de la cocina mexicana. </p>
+            <p>Aquí encontrarás una exquisita variedad de menús que incluyen <strong>desayunos tradicionales</strong>, <strong>comidas caseras</strong> y <strong>postres típicos</strong> que deleitarán tu paladar.</p>
+            <p>Ven a disfrutar de un ambiente cálido, familiar y 100% mexicano. ¡Te esperamos con los brazos abiertos y el sazón que nos distingue!</p>
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de</h2>
+            <p>En nuestro restaurante ofrecemos tres tipos de menús para satisfacer todos los gustos:</p>
+
+            <h3>Desayuno</h3>
+            <ul>
+                <li>Huevos al gusto con pan tostado</li>
+                <li>Pancakes con miel y frutas</li>
+                <li>Jugo natural de naranja</li>
+            </ul>
+
+            <h3>Comida</h3>
+            <ul>
+                <li>Pollo a la plancha con arroz y ensalada</li>
+                <li>Enchiladas rojas con queso</li>
+                <li>Agua de horchata o tamarindo</li>
+            </ul>
+
+            <h3>Postres</h3>
+            <ul>
+                <li>Pastel de chocolate</li>
+                <li>Flan napolitano</li>
+                <li>Helado artesanal</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información, contáctanos al correo: contacto@restaurante-mexicano.com</p>
+        </section>
     </main>
 
     <footer>
-        &copy; 2025 Mi Sitio Web. Todos los derechos reservados.
+        &copy; 2025 Restaurante Mexicano. Todos los derechos reservados.
     </footer>
 
 </body>
 </html>
+
+
